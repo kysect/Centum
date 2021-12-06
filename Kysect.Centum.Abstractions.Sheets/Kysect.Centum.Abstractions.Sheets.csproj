@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <RootNamespace>Kysect.Centum.Sheets</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Kysect.Centum\Kysect.Centum.csproj" PrivateAssets="All" />
+    </ItemGroup>
+
+</Project>
