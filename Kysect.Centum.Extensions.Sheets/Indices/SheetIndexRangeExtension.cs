@@ -5,7 +5,7 @@ using Kysect.Centum.Sheets.Indices;
 
 namespace Kysect.Centum.Extensions.Sheets.Indices
 {
-    internal static class SheetIndexRangeExtension
+    public static class SheetIndexRangeExtension
     {
         public static GridRange ToGoogleGridRange(this ISheetIndexRange range, int sheetId) =>
             new GridRange
@@ -13,13 +13,13 @@ namespace Kysect.Centum.Extensions.Sheets.Indices
                 SheetId = sheetId,
                 StartColumnIndex = ((int?)range.From.Column).ApplyIfNotNull(i => i - 1),
                 StartRowIndex = ((int?)range.From.Row).ApplyIfNotNull(i => i - 1),
-                EndColumnIndex = (int?) range.To.Column,
+                EndColumnIndex = (int?)range.To.Column,
                 EndRowIndex = (int?)range.To.Row
             };
 
-        public static IReadOnlyCollection<GridRange> ToGoogleGridRanges(this IEnumerable<ISheetIndexRange> ranges, int sheetId)
+        public static IReadOnlyCollection<GridRange> ToGoogleGridRanges(
+            this IEnumerable<ISheetIndexRange> ranges, int sheetId)
             => ranges.Select(r => ToGoogleGridRange(r, sheetId)).ToList();
-
 
         public static ISheetIndexRange ToSheetIndexRange(this GridRange range)
             => new SheetIndexRange(
