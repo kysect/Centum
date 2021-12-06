@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kysect.Centum", "Kysect.Centum\Kysect.Centum.csproj", "{5165F695-22DA-4EE4-93A8-C10F6069DEB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kysect.Centum.Sample", "Kysect.Centum.Sample\Kysect.Centum.Sample.csproj", "{DAD06F10-E016-4DF9-8C18-356FA9D0A0BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kysect.Centum.Extensions.Sheets", "Kysect.Centum.Extensions.Sheets\Kysect.Centum.Extensions.Sheets.csproj", "{8278BD92-AE99-4585-8961-23E87300B76D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kysect.Centum.Abstractions.Sheets", "Kysect.Centum.Abstractions.Sheets\Kysect.Centum.Abstractions.Sheets.csproj", "{AB85EA01-5B61-46DD-850C-1AB006EEFC46}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5165F695-22DA-4EE4-93A8-C10F6069DEB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5165F695-22DA-4EE4-93A8-C10F6069DEB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5165F695-22DA-4EE4-93A8-C10F6069DEB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5165F695-22DA-4EE4-93A8-C10F6069DEB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAD06F10-E016-4DF9-8C18-356FA9D0A0BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAD06F10-E016-4DF9-8C18-356FA9D0A0BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAD06F10-E016-4DF9-8C18-356FA9D0A0BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAD06F10-E016-4DF9-8C18-356FA9D0A0BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8278BD92-AE99-4585-8961-23E87300B76D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8278BD92-AE99-4585-8961-23E87300B76D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8278BD92-AE99-4585-8961-23E87300B76D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8278BD92-AE99-4585-8961-23E87300B76D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB85EA01-5B61-46DD-850C-1AB006EEFC46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB85EA01-5B61-46DD-850C-1AB006EEFC46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB85EA01-5B61-46DD-850C-1AB006EEFC46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB85EA01-5B61-46DD-850C-1AB006EEFC46}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
