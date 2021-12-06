@@ -3,6 +3,13 @@
     <PropertyGroup>
         <TargetFramework>net5.0</TargetFramework>
         <Nullable>enable</Nullable>
+        <PackageVersion>0.0.1</PackageVersion>
+        <Title>Kysect.Centum</Title>
+        <Authors>Kysect</Authors>
+        <Description>A set of abstractions for working with Google API</Description>
+        <RepositoryUrl>https://github.com/kysect/Centum/tree/master/Kysect.Centum</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageReleaseNotes>Provides functionality for extracting fields from Google API models using expressions.</PackageReleaseNotes>
     </PropertyGroup>
 
     <ItemGroup>

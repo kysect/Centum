@@ -3,6 +3,13 @@
     <PropertyGroup>
         <TargetFramework>net5.0</TargetFramework>
         <Nullable>enable</Nullable>
+        <PackageVersion>0.0.1</PackageVersion>
+        <Title>Kysect.Centum.Extensions.Sheets</Title>
+        <Authors>Kysect</Authors>
+        <Description>An extensions for Kysect.Centum.Abstractions.Sheets.</Description>
+        <RepositoryUrl>https://github.com/kysect/Centum/tree/master/Kysect.Centum.Extensions.Sheets</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageReleaseNotes>Method for transforming indices abstractions to Google.Sheets API models.</PackageReleaseNotes>
     </PropertyGroup>
 
     <ItemGroup>
