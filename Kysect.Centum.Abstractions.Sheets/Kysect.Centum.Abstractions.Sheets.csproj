@@ -4,13 +4,13 @@
         <TargetFramework>net5.0</TargetFramework>
         <Nullable>enable</Nullable>
         <RootNamespace>Kysect.Centum.Sheets</RootNamespace>
-        <PackageVersion>0.0.1</PackageVersion>
+        <PackageVersion>0.0.2</PackageVersion>
         <Title>Kysect.Centum.Abstractions.Sheets</Title>
         <Authors>Kysect</Authors>
         <Description>A set of abstractions for working with Google.Sheets API.</Description>
         <RepositoryUrl>https://github.com/kysect/Centum/tree/master/Kysect.Centum.Abstractions.Sheets</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
-        <PackageReleaseNotes>Provides abstractions over indices and index ranges</PackageReleaseNotes>
+        <PackageReleaseNotes>added: merge type, input type, dimension models </PackageReleaseNotes>
     </PropertyGroup>
 
     <ItemGroup>
